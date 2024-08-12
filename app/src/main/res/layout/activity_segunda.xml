@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SegundaActivity">
+
+    <TextView
+        android:layout_width="415dp"
+        android:layout_height="88dp"
+        android:background="@color/purple"
+        android:paddingVertical="20dp"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="237dp"
+        android:layout_height="135dp"
+        android:background="@color/black"
+        android:text="/@contactExample
+
+           /@OtherExample
+
+            Contact Number: XX-XXXX-XX01"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:onClick="MainActivity"
+        android:text="Voltar"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="554dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:paddingVertical="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="675dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

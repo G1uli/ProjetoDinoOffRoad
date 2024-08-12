@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="DinosOfRoad"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:id="@+id/sampleOffR"
+        android:layout_width="wrap_content"
+        android:layout_height="385dp"
+        app:srcCompat="@drawable/img" />
+
+    <Button
+        android:id="@+id/btnContato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Contate-nos"
+        android:onClick="SegundaActivity"/>
+
+    <TextClock
+        android:id="@+id/textClock"
+        android:textSize="50px"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+</LinearLayout>
